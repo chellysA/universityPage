@@ -1,0 +1,622 @@
+.flex-1 {
+  flex: 1;
+}
+
+a:hover,
+a:visited,
+a:active {
+  color: none !important;
+}
+
+a:hover {
+  transform: scale(1.02);
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0rem;
+  margin-bottom: 0rem !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.text-primary-all > * {
+  color: var(--primary) !important;
+}
+
+.text-white-all > * {
+  color: white !important;
+}
+
+.p-section {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+#logo {
+  width: 6.375rem;
+}
+
+.navbar-brand-footer {
+  width: 50%;
+}
+
+.bg-filter-main {
+  background: linear-gradient(45deg, #02557d7a, #02557d7a);
+}
+
+#home-screen {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#form-register-now input,
+#form-register-now textarea {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 1rem;
+  border: none;
+  outline: 0rem !important;
+  background: #d9d9d9;
+  color: #080808;
+  font-weight: 700;
+  width: 100%;
+  resize: none;
+}
+
+#container-form-register {
+  max-width: 26.25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  -webkit-box-shadow: 0.1875rem 0.125rem 0.3125rem 0rem rgba(2, 85, 125, 0.36);
+  -moz-box-shadow: 0.1875rem 0.125rem 0.3125rem 0rem rgba(2, 85, 125, 0.36);
+  box-shadow: 0.1875rem 0.125rem 0.3125rem 0rem rgba(2, 85, 125, 0.36);
+}
+
+#header {
+  font-size: 1.7rem;
+}
+
+#header-form {
+  padding: 0.75rem;
+  border-bottom: 0.375rem solid var(--secondary);
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  padding-left: 1.5rem !important;
+}
+
+#benefits-box {
+  height: auto;
+  background-image: linear-gradient(45deg, #02557d7a, #02557d7a),
+    url("/assets/images/BACKGROUND\ BENEFITS.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn {
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  font-weight: 800;
+  font-size: 0.875rem;
+  border-radius: 1rem;
+  height: 1.8rem;
+}
+
+.bg-white {
+  background-color: white !important;
+}
+
+.btn-secondary {
+  color: white;
+}
+
+.btn-big {
+  font-size: 1.25rem;
+  border-radius: 1.5rem;
+  height: 3rem;
+  width: 12.5rem;
+}
+
+.divider-welcome {
+  height: 0.25rem;
+  width: 12.5rem;
+  background: var(--secondary);
+}
+
+.input-message {
+  height: 6rem;
+}
+
+#container-video-main {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#video-main {
+  height: 120%;
+  left: -40%;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-container-img-course {
+  height: 60%;
+  overflow: hidden;
+  border-bottom: 4px solid #03324e;
+}
+
+.card-content-course {
+  height: 40%;
+  border-top: 8px solid var(--secondary);
+}
+
+.card-content-course{
+    color: #03324e
+}
+
+.fill-with-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.benefits {
+  max-width: 10rem;
+}
+
+#our-team {
+  background-color: #efefef;
+}
+
+.wall {
+  height: 30%;
+}
+
+.container-avatar {
+  width: 100%;
+  position: absolute;
+  bottom: -55%;
+}
+
+.avatar {
+  border: 0.5rem solid white;
+  width: 55% !important;
+  height: auto;
+  border-radius: 100%;
+}
+
+.point {
+  top: 0.3rem;
+  left: 0px;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 100%;
+}
+
+.divider-in-title-section {
+  width: 15rem;
+  height: 0.25rem;
+  border-radius: 16px;
+}
+
+.title-section > div:last-child {
+  padding-left: 1.6rem;
+}
+
+#container-testimonials {
+  width: 100%;
+  color: white;
+  background-image: linear-gradient(45deg, #02557d7a, #02557d7a),
+    url("/assets/images/IMAGEN\ HERO.jpg");
+  background-color: #05344b8f;
+  background-blend-mode: multiply ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+html {
+  font-size: 0.8rem;
+}
+
+.img-about-us {
+  border-radius: 1rem;
+  border: 0.4rem solid #bacfddcb;
+  z-index: 1;
+  background-size: cover;
+  position: relative;
+}
+
+.img-frame{
+  width: 97%;
+  height: 90%;
+  border: 0.3rem solid #88885f;
+  position: absolute;
+  border-radius: 0.8rem;
+  left: -7px;
+  bottom: -26px;
+  transform: rotate(5.5deg);
+}
+
+.bg-design{
+  position: absolute;
+  border-radius: 0.6rem;
+  border: 0.13rem solid #9eafbb85;
+  width: 7rem;
+  height: 7rem;
+  transform: rotate(20deg);
+  right: -6.2rem;
+  top: -1rem;
+}
+.bg-design2{
+  right: -5.3rem;
+  top: 10rem;
+}
+.bg-design3{
+  right: -5rem;
+  top: 14rem;
+  border-color:  #abb5bdcf;
+}
+.bg-design4{
+  right: -4rem;
+  top: 19.5rem;
+  border-color:  #e5e8ebf2;
+}
+.bg-design5{
+  right: -4rem;
+  top: 25rem;
+  border-color:  #b8c5cf42;
+}
+.card {
+  height: 25.2rem;
+  width: 20rem;
+  border: 0.13rem solid #bccdd8a1;
+}
+
+.card-course {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  height: 350px;
+  width: 233px;
+}
+
+.career {
+  border-radius: 0.75rem;
+  width: 100%;
+  height: 15rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-careers{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.7s ease;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.career:hover .img-careers {
+  transform: scale(1.5);
+}
+
+.btn-border-white {
+  border: 0.1rem solid white;
+}
+
+.container-name-review {
+  position: absolute;
+  bottom: -1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-name-review > p {
+  color: #f65b2d;
+  text-align: center;
+  border-radius: 0.25rem;
+  background-color: white;
+  width: 70%;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.play-button {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  font-size: 3rem;
+  border-radius: 100%;
+  background-color: #f65b2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.review-filter{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #00000059;
+}
+
+@media (max-width: 350px) {
+  .card {
+    height: 21.2rem;
+    width: 16rem;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #header i {
+    font-size: 1.3rem;
+  }
+  #logo {
+    width: 8rem;
+  }
+
+  .career {
+    border-radius: 0.75rem;
+    width: 100%;
+    height: 100%;
+  }
+  #container-careers {
+    min-height: 550px;
+  }
+
+  .benefits {
+    max-width: 250px;
+  }
+
+  .card {
+    height: 18rem;
+    width: 12rem;
+  }
+
+  #container-form-register {
+    max-width: 31.25rem;
+  }
+
+  .p-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  #video-main {
+    left: 0%;
+  }
+
+  #container-testimonials {
+    width: 70%;
+  }
+
+  html {
+    font-size: 1rem;
+  }
+
+  .first-block-careers {
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 8%;
+  }
+
+  .second-block-careers {
+    flex: 1;
+  }
+  .h-md-100 {
+    height: 100%;
+  }
+}
+
+#new-letter {
+  padding: 0.1rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  background-color: white;
+  max-width: 18rem;
+}
+
+#new-letter input {
+  padding-left: 1rem;
+  width: fit-content;
+  background: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #header {
+    font-size: 1rem;
+  }
+
+  #container-testimonials {
+    width: 60%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #container-testimonials {
+    width: 60%;
+  }
+
+  .p-section {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+@media (max-width: 451px) {
+  .container-course {
+    justify-content: center !important;
+  }
+}
+
+/* Slider */
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-list:focus {
+  outline: none;
+}
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: "";
+}
+
+.slick-track:after {
+  clear: both;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+
+.slick-slide img {
+  display: block;
+}
+
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
+.slicktrack .slick-slide:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
